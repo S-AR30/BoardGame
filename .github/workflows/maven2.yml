@@ -19,3 +19,7 @@ jobs:
         cache: maven
     - name: Build with maven project
       run: mvn package --file pom.xml
+    - name: actions/upload-artifacts
+      with:
+        name: Boardgame
+        path: target/*.jar
