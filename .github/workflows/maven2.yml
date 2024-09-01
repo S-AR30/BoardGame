@@ -34,4 +34,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: bd/app:latest
+        tags: sowmyaar/bd:latest
